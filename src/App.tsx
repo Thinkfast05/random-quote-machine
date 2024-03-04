@@ -48,7 +48,7 @@ const changeQuote = () =>{
             ><FaTwitter color="white"/>
             </a>
             <button id="new-quote" onClick={changeQuote}
-            style={{backgroundColor:randomColor, transition}}>
+            style={{backgroundColor:randomColor, transition, color:"white"}}>
               Change quote
             </button>
           </div>
